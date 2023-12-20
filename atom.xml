@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>优秀的雨</title>
   
-  <subtitle>true</subtitle>
+  <subtitle>my log</subtitle>
   <link href="https://mstsc01.github.io/atom.xml" rel="self"/>
   
   <link href="https://mstsc01.github.io/"/>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>博客部署关键点记录</title>
-    <link href="https://mstsc01.github.io/2023/12/18/hello/"/>
-    <id>https://mstsc01.github.io/2023/12/18/hello/</id>
+    <link href="https://mstsc01.github.io/2023/12/18/%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/"/>
+    <id>https://mstsc01.github.io/2023/12/18/%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/</id>
     <published>2023-12-18T03:44:28.000Z</published>
     <updated>2023-12-20T03:58:10.756Z</updated>
     
