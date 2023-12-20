@@ -1,5 +1,8 @@
-http://example.com/tags/index.html
-http://example.com/categories/index.html
-http://example.com/2023/12/18/hello/
-http://example.com/2023/12/18/hello-world/
-http://example.com/
+https://mstsc01.github.io/about/index.html
+https://mstsc01.github.io/2023/12/18/hello/
+https://mstsc01.github.io/tags/index.html
+https://mstsc01.github.io/categories/index.html
+https://mstsc01.github.io/2023/12/18/hello-world/
+https://mstsc01.github.io/
+https://mstsc01.github.io/tags/hexo/
+https://mstsc01.github.io/categories/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/

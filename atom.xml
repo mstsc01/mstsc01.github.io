@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>雨季的Blog</title>
   
-  <subtitle>subtitle</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <subtitle>简单的事认真做就不简单</subtitle>
+  <link href="https://mstsc01.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2023-12-18T06:18:01.953Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://mstsc01.github.io/"/>
+  <updated>2023-12-19T09:21:30.564Z</updated>
+  <id>https://mstsc01.github.io/</id>
   
   <author>
     <name>mstsc</name>
@@ -17,32 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello</title>
-    <link href="http://example.com/2023/12/18/hello/"/>
-    <id>http://example.com/2023/12/18/hello/</id>
+    <title>博客部署关键点记录</title>
+    <link href="https://mstsc01.github.io/2023/12/18/hello/"/>
+    <id>https://mstsc01.github.io/2023/12/18/hello/</id>
     <published>2023-12-18T03:44:28.000Z</published>
-    <updated>2023-12-18T06:18:01.953Z</updated>
+    <updated>2023-12-19T09:21:30.564Z</updated>
     
-    <content type="html"><![CDATA[<p>1</p><p>2</p><p>3</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="git-首次部署项目"><a href="#git-首次部署项目" class="headerlink" title="git 首次部署项目"></a>git 首次部署项目</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m “第一次提交”</span><br><span class="line">gitbranch -M main</span><br><span class="line">git 远程添加源https://github.com/mstsc01/mstsc01.github.io.git</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure><h2 id="安装主题后的操作命令"><a href="#安装主题后的操作命令" class="headerlink" title="安装主题后的操作命令"></a>安装主题后的操作命令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo clean   #清除缓存文件 db.json 和已生成的静态文件 public</span><br><span class="line">hexo g       #生成网站静态文件到默认设置的 public 文件夹(hexo generate 的缩写)</span><br><span class="line">hexo d       #自动生成网站静态文件，并部署到设定的仓库(hexo deploy 的缩写)</span><br><span class="line"></span><br><span class="line">hexo new page &quot;tags&quot;  #添加新的页面</span><br><span class="line">hexo new page &quot;about&quot;</span><br></pre></td></tr></table></figure><h2 id="写文档图片处理"><a href="#写文档图片处理" class="headerlink" title="写文档图片处理"></a>写文档图片处理</h2><ul><li>先把图片上传到 <a href="https://sm.ms/">sm.ms</a> 里生成图片链接在添加到md中</li><li>图片大小在md配置</li></ul><img src="https://s2.loli.net/2023/12/19/nUxMeEShJjrVpC5.png" alt="新手教程.png"  /><h2 id="配置typora自动上传图片"><a href="#配置typora自动上传图片" class="headerlink" title="配置typora自动上传图片"></a>配置typora自动上传图片</h2><ul><li>通过npm 安装插件</li><li>终端中输入“which picgo”来获取其实际安装位置</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install picgo -g</span><br><span class="line">#or</span><br><span class="line">yarn global add picgo</span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2023/12/19/Q3gdRsYSoCc1mzT.png" alt="image-20231219171424994"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;1&lt;/p&gt;
-&lt;p&gt;2&lt;/p&gt;
-&lt;p&gt;3&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h2 id=&quot;git-首次部署项目&quot;&gt;&lt;a href=&quot;#git-首次部署项目&quot; class=&quot;headerlink&quot; title=&quot;git 首次部署项目&quot;&gt;&lt;/a&gt;git 首次部署项目&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;tabl</summary>
       
     
     
     
+    <category term="新手教程" scheme="https://mstsc01.github.io/categories/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="hexo" scheme="https://mstsc01.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2023/12/18/hello-world/"/>
-    <id>http://example.com/2023/12/18/hello-world/</id>
+    <link href="https://mstsc01.github.io/2023/12/18/hello-world/"/>
+    <id>https://mstsc01.github.io/2023/12/18/hello-world/</id>
     <published>2023-12-18T01:41:34.874Z</published>
     <updated>2023-12-18T01:41:34.874Z</updated>
     
